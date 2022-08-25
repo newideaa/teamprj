@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+    리스트
+    <ul> : unordered list로 순서가 없는 리스트
+    <ol> : ordered list로 순서가 있는 리스트
+    <dl> : description list로 용어를 설명하는 리스트
+    <dt> : definition term로 용어를 구분한다.
+    <dd> : definition description로 용어의 정의를 나타낸다.
+    
+    주의사항 : 리스트가 많을 경우 들여쓰기 잘할 것 !
+-->
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>list tags</title>
+</head>
+
+<body>
+    <ul>
+        <li>콩나물</li>
+        <li>파</li>
+        <li>국 간장</li>
+    </ul>
+    <ol>
+        <li>냄비에 국물용 ~~</li>
+        <li>콩나물을 넣고 ~~</li>
+        <li>뚜껑을 열고 대파 ~~~</li>
+    </ol>
+    <dl>
+        <!--dt 하나에 dd 두개가 들어갈 수 있다.-->
+        <dt>리플리 증후군</dt>
+        <dd>허구의 세계를 진실이라 ~~</dd>
+        <dd>리플리 증후군에 대한 또 다른 설명입니다.</dd>
+        <dt>피그말리온 효과</dt>
+        <dd>타인의 기대나 관심으로 인하여 능률이 오르거나 결과가 좋아지는 현상</dd>
+        <dt>언더독 효과</dt>
+        <dd>사람들이 약자라고 믿는 주체를 응원하게 되는 현상</dd>
+    </dl>
+    <!--리스트의 중첩-->
+    <h1>월드컵 조 편성</h1>
+    <ol><!--<ol> 태그 자식으로는 li 밖에 못온다.-->
+        <li>
+            A조
+            <ul>
+                <li>러시아</li>
+                <li>우루과이</li>
+                <li>이집트</li>
+                <li>사우디아라비아</li>
+            </ul>
+        </li>
+        <li>
+            B조
+            <ul>
+                <li>이란</li>
+                <li>스페인</li>
+                <li>포르투갈</li>
+                <li>모로코</li>
+            </ul>
+        </li>
+        <li>
+            C조
+            프랑스, 덴마크, 호주, 페루
+        </li>
+        <li>
+            D조
+            크로아티아, 아르헨티나, 아이슬란드, 나이지리아
+        </li>
+    </ol>
+</body>
+
+</html>
