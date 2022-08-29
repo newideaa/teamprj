@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--표(table)
+    : 데이터 표를 나타내는 태그
+    * <td>, <th> : 데이터 셀
+    * <tr> : 행
+    * <table> : 표
+    * <caption> : 표의 제목
+    * <thead> : 제목 행을 그룹
+    * <tffot> : 바닥 행을 그룹
+    * <tbody> : 본문 행을 그룹
+    * colspan : 셀을 가로방향으로 병합
+    * rowspan : 셀을 세로방향으로 병합
+    -->
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+    <style media="screen">
+        td { border: 1px solid; width: 50px; height: 50px}
+    </style>
+</head>
+
+<body>
+    <table>
+        <table>
+            <caption>Monthly Savings</caption>
+            <thead>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Sum</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>January</td>
+                    <td rowspan="2">$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                </tr>
+            </tbody>
+        </table>
+    </table>
+</body>
+
+</html>
