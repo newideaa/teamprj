@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+    FORM: 서버에 데이터를 전달하기 위한 요소들
+    <input>: 대표적인 폼 요소로, 다양한 type 속성으로 여러 종료의 입력 양식으로 나타난다.
+    ex ) text, password, radio, checkbox,....
+    select 요소: 선택 목록상자(콤보박스)
+    textarea 요소: 여러 줄 텍스트 입력 상자(cols, rows)
+    button 요소: 사용자가 클릭 가능한 버튼(submit, reset, button) vs <input type="submit|reset|button">
+-->
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>폼 요소(FORM)</title>
+</head>
+
+<body>
+    <form action="/test.html">
+        <h1>Form 관련 요소</h1>
+        아이디: <input type="text" placeholder="영문으로만 써주세요"><br>
+        패스워드: <input type="password"><br>
+        성별: 남자 <input type="radio" name="gender" checked>, 여자 <input type="radio" name="gender"><br>
+        취미: 영화감상 <input type="checkbox" name="hobby">, 음악감상 <input type="checkbox" name="hobby">, 독서 <input
+            type="checkbox" name="hobby"><br>
+        프로필 사진 업로드: <input type="file"><br>
+        <select>
+            <option>서울</option>
+            <option>경기</option>
+            <option>강원</option>
+            <option selected>제주</option>
+        </select><br>
+        자기소개: <textarea cols="30" rows="5" placeholder="자기소개는 짧게 해주세요."></textarea><br>
+        <button type="submit">전송</button><br>
+        <button type="reset">취소</button><br>
+        <button type=""></button>
+        
+        <input type="submit" value="전송"><br>
+        <input type="reset" value="취소"><br>
+        <input type="button" value="등록"><br>
+        <input type="image" src="" alt="로그인" width="" height=""><br>
+    </form>
+</body>
+
+</html>
