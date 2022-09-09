@@ -1,0 +1,8 @@
+콘텐츠 모델 : html5에서 요소를 정의하는 규칙이 존재하는데, 이런 규칙들을 그룹화 시켜놓은 것
+1. metadata: 콘텐츠의 style(표현),script(동작)을 설정하거나 다른 문서와의 관계 등의 정보를 포함하는 요소 ex) base, link, meta, noscript, script, style, title
+2. flow: 문서에 사용되는 대부분의 요소
+3. sectioning: 헤딩과 푸터의 범위를 결정 하는 요소, 아웃라인이 있음 ex) article, aside, nav, section
+4. heading: 섹션의 헤더를 정의하는 요소 ex) h1, h2, h3,...
+5. phrasing: 문서의 텍스트이며 문단 내부 레벨로 마크업 하는 요소
+6. embedded: 이미지, 비디오, 플래시 등 외부 콘텐츠를 문서내에 표현하는 요소 ex) audio, canvas, ...
+7. interactive: 사용자와 상호작용을 하는 요소
